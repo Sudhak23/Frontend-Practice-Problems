@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    body{
+      background-color: rgb(211, 236, 247);
+    }
+    .main{
+      display: flex;
+      width: 25em;
+      height: 38em;
+      background-color: white;
+      margin: 50px auto;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
+      box-shadow: 3px 7px 16px 5px rgba(0,0,0,0.53);
+  
+    }
+    img{
+      width:90%;
+      border-radius: 10px;
+      margin: 17px;
+    }
+    h1{
+      text-align: center;
+      font-size: 1.5em;
+      font-weight: 800;
+    }
+    p{
+      text-align: center;
+      font-size: 1.1em;
+      color: gray;
+    }
+
+    @media only screen and (max-width:375px){
+      .main{
+        width: 70%;
+        height: 90%;
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+      }
+      img{
+        width: 250px;
+        height: 250px;
+        margin: 10px;
+      }
+      h1{
+        font-size: 15px;
+
+      }
+      p{
+        font-size: 10px;
+
+      }
+      
+    }
+   
+  </style>
+</head>
+<body>
+  <div class="container main ">
+    <div class="row d-flex">
+      <img  src=".\images\image-qr-code.png">
+      <h1>Improve your front-end <br> skills by building projects</h1>
+      <p>Scan the QR code to visit Frontend Mentor <br> and take your coding skills to <br> the next level</p>
+    </div>
+  
+  </div>
+</body>
+</html>
